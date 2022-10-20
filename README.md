@@ -11,3 +11,7 @@ Requirements:
 7. There must be a cancel button which the user can press to clear the board.
 8. There must be a save button which the user can press to send the drawing to a backend where it will be saved in a database. Create an api and use any database of your choice.
 
+Output: 
+![image](https://user-images.githubusercontent.com/40952778/196858388-948a82d4-5a71-49d9-8286-73f5cd2f339b.png)
+
+
