@@ -1,6 +1,6 @@
 # drawing board
 
-Requirements:
+Software Requirements:
  
 1. The page must consist of a 500px X 500px board. The board must consist of a grid of 2px X 2px squares. (Not referring to the CSS grid, but you can use it if you want to).
 2. The User must be able to select among 7 (increase if you want to) colours to put on the board by clicking on it. [Choose any combination of colours you want]
@@ -13,5 +13,33 @@ Requirements:
 
 Output: 
 ![image](https://user-images.githubusercontent.com/40952778/196858388-948a82d4-5a71-49d9-8286-73f5cd2f339b.png)
+
+
+### **Requirements:**
+For development, you will need only Node.js installed in your environment.
+
+Node:
+
+- Just go on the official [Node.js website](https://nodejs.org/) and download the installer according to your system specifications.
+- If the installation was successful, you should be able to run the following commands:
+`node --version`
+`npm --version`
+
+- Make sure these two commands show versions not errors
+- Now open any text editor you want and in the editor's terminal run this command: `npm init`
+- Follow the steps and answer some questions and this will create necesssary folders in your working directory.
+- Now install nodemon with this command:`npm i -g nodemon`
+- This will download nodemon globally.
+- Now install express with this command: `npm i -g express`
+- Now install mongoose and MongoDB  with this command: `npm i -g mongoose`, `npm i mongodb`
+- Also you can run the files by the help of nodemon using this command:     `nodemon "filename"` in our project  
+   `nodemon express.js`
+- open the browser and run localhost on port 4000 : `http://localhost:4000/`
+
+### **DataBase** 
+- when you click on save button after complete your drawing it will save as array in MongoDB database collection 
+- open the MongoDB compass and check  the collection: database if **Pixel-art** and the collection name is **ColloredPixels**
+
+
 
 
