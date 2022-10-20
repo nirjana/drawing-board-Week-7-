@@ -38,7 +38,7 @@ Node:
 
 ### **DataBase** 
 - when you click on save button after complete your drawing it will save as array in MongoDB database collection 
-- open the MongoDB compass and check  the collection: database if **Pixel-art** and the collection name is **ColloredPixels**
+- open the MongoDB compass and check  the collection: database ii **Pixel-art** and the collection name is **ColloredPixels**
 
 
 
